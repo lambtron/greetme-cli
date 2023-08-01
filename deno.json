@@ -1,8 +1,10 @@
 {
   "tasks": {
-    "compile": "deno compile --allow-read --allow-write --unstable main.ts --output greetme"
+    "compile": "deno compile --allow-read --allow-write --unstable main.ts --output greetme",
+    "test": "deno test --unstable --allow-write --allow-read"
   },
   "imports": {
-    "$flags": "https://deno.land/std@0.196.0/flags/mod.ts"
+    "$flags": "https://deno.land/std@0.196.0/flags/mod.ts",
+    "$asserts": "https://deno.land/std@0.192.0/testing/asserts.ts"
   }
 }

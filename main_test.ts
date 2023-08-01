@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.192.0/testing/asserts.ts";
+import { assertEquals } from "$asserts";
 import { parseArguments } from "./main.ts";
 
 Deno.test("parseArguments should correctly parse CLI arguments", () => {
