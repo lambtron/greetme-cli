@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "$flags": "https://deno.land/std@0.196.0/flags/mod.ts"
+  }
+}
