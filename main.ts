@@ -44,7 +44,7 @@ export function parseArguments(args: string[]): Args {
  */
 
 function printHelp(): void {
-  console.log(`Usage: GreetCLI [OPTIONS...]`);
+  console.log(`Usage: greetme [OPTIONS...]`);
   console.log("\nOptional flags:");
   console.log("  -h, --help                Display this help and exit");
   console.log("  -s, --save                Save settings for future greetings");
